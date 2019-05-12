@@ -1,0 +1,208 @@
+.header-color{
+    background: #0099F7;  
+background: -webkit-linear-gradient(to right, #F11712, #0099F7);  
+background: linear-gradient(to right, #F11712, #0099F7); 
+
+}
+
+/* Recume css */
+.resume-right-col{
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+
+/* aboutme css */
+.about{
+    text-align: center;
+}
+
+.aboutavater{
+   margin: 3em;
+}
+
+/* landing css */
+.avater-img{
+    height: 250px;
+    padding-top: 5em;  
+}
+
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+}
+
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color:white;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+/* projects css */
+.projects-grid{
+    display: flex;
+}
+
+/* contact css */
+
+.contact-grid h3{
+    font-family: 'Anton',sans-serif;
+}
+
+.contact-grid h2{
+    font-family: 'Anton',sans-serif;
+}
+
+.contact-grid p{
+    font-family: 'Oxygen',sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr{
+    border-top: 5px dotted #000;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 767px) { 
+    /* landing css */
+
+.landing-grid{
+    background: #0099F7; 
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7); 
+    background: linear-gradient(to right, #F11712, #0099F7); 
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+/* contact css */
+.contact-body{
+    margin: auto;
+    background: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.phone{
+    font-size: 40px;
+}
+
+.mail{
+    font-size: 31px;
+}
+
+.skype{
+    font-size: 35px;
+}
+
+.contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+    margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 479px) { 
+/* landing css */
+.landing-grid{
+    background: #0099F7; 
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7); 
+    background: linear-gradient(to right, #F11712, #0099F7); 
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-links{
+    margin: auto;
+}
+
+    /* contact css */
+ .contact-body{
+    background:white; 
+    margin: auto; 
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.phone{
+    font-size: 20px;
+}
+
+.mail{
+    font-size: 20px;
+}
+
+.skype{
+    font-size: 20px;
+}
+
+.contact-list i{
+    display: flex;
+    font-size: 44px;
+    padding-right: 5rem;
+    margin-top: 15px;
+   
+}
+}
+
+
+
