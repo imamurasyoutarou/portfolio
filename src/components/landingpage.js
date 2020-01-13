@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+
+
 class Landing extends Component {
+
     render() {
+
         return (
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ITbO8HeQcxa5yhjeacxErtvsy3ibzYzp90k0ogLA_17c7Jw"
+                            src={`${process.env.PUBLIC_URL}/talk.png`}
                             alt="avatar"
                             className="avater-img"
                         />
                         <div className="banner-text">
-                            <h1>Front Engineer</h1>
+                            <h1>Front Engineer / UIUX designer</h1>
                             <hr />
-                            <p>HTML/CSS | JavaScript | React </p>
+                            <p>HTML/CSS | JavaScript | React | ReactNative  <br />Sketch | XD | Photoshop | Illustrator </p>
+
                             <div className="social-links">
 
                                 {/* GidHub */}
@@ -31,8 +36,8 @@ class Landing extends Component {
                                     <i className="fab fa-facebook-square" aria-hidden="true"></i>
                                 </a>
                                 {/* mail */}
-                                <a href="mailto:imasyou718@icloud.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="far fa-envelope" aria-hidden="true"></i>
+                                <a href="https://note.mu/imasyou718" rel="noopener noreferrer" target="_blank">
+                                    <i className="far fa-sticky-note" aria-hidden="true"></i>
                                 </a>
 
                             </div>

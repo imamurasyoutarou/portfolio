@@ -25,15 +25,15 @@ class Contact extends Component {
                             <List>
 
                                 <ListItem>
-                                    <ListItemContent className='phone' style={{ fontFamily: 'Anton' }}>
-                                        <i className="fa fa-phone-square" aria-hidden="ture" />
+                                    <ListItemContent className='phone'>
+                                        <i className="fa fa-phone-square" aria-hidden="ture" style={{ fontSize: 50 }} />
                                         (080-8364-5815)
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent className='mail' style={{ fontFamily: 'Anton' }}>
-                                        <i className="fas fa-envelope-square" aria-hidden="ture" />
+                                    <ListItemContent className='mail' >
+                                        <i className="fas fa-envelope-square" aria-hidden="ture" style={{ fontSize: 50 }} />
                                         imasyou718@icloud.com
                                     </ListItemContent>
                                 </ListItem>

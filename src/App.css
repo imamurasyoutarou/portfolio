@@ -36,7 +36,7 @@ background: linear-gradient(to right, #F11712, #0099F7);
 }
 
 .banner-text h1{
-    font-size: 66px;
+    font-size: 45px;
     font-weight: bold;
     color:white;
 }
@@ -184,24 +184,18 @@ background: linear-gradient(to right, #F11712, #0099F7);
 }
 
 .phone{
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .mail{
-    font-size: 20px;
+    font-size: 5px;
 }
 
 .skype{
-    font-size: 20px;
+    font-size: 10px;
 }
 
-.contact-list i{
-    display: flex;
-    font-size: 44px;
-    padding-right: 5rem;
-    margin-top: 15px;
-   
-}
+
 }
 
 
