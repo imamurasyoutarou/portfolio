@@ -23,8 +23,9 @@ background: linear-gradient(to right, #F11712, #0099F7);
 
 /* landing css */
 .avater-img{
-    height: 250px;
-    padding-top: 5em;  
+    height: 200px;
+    padding: 2em;  
+    border-radius: 50%;
 }
 
 .banner-text{
@@ -54,9 +55,13 @@ background: linear-gradient(to right, #F11712, #0099F7);
 }
 
 .social-links i{
-    color: white;
+    color: black;
     font-size: 5em;
     padding: 8px;
+    text-align: center;
+}
+.social-links {
+    text-align: center;
 }
 
 /* projects css */
@@ -101,12 +106,7 @@ background: linear-gradient(to right, #F11712, #0099F7);
     height: 100%;
 }
 
-.social-links{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: auto;
-}
+
 /* contact css */
 .contact-body{
     margin: auto;
@@ -161,9 +161,6 @@ background: linear-gradient(to right, #F11712, #0099F7);
     height: 100%;
 }
 
-.social-links{
-    margin: auto;
-}
 
     /* contact css */
  .contact-body{
