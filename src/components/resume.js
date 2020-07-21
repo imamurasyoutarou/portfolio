@@ -11,7 +11,6 @@ class Resume extends Component {
             <Grid>
               <Cell col={4}>
                 <div style={{ textAlign: "center" }}>
-             
                   <img
                     src={`${process.env.PUBLIC_URL}/img.jpg`}
                     alt="avatar"
@@ -90,10 +89,10 @@ class Resume extends Component {
                   jobDescription="個人アプリ「マイカグ」をリリース。 言語 ReactNative firebase"
                 />
                 <Experience
-                  startYear={2019.9}
-                  endYear={2019.11}
-                  jobName="マイカグ"
-                  jobDescription="個人アプリ「マイカグ」をリリース。 言語 ReactNative firebase"
+                  startYear={2019.12}
+                  endYear={2020.1}
+                  jobName="株式会社ajike"
+                  jobDescription="フロントエンドとして業務委託で勤務。Next.js firebaseで開発を経験"
                 />
                 <Experience
                   startYear={2020.1}
