@@ -1,56 +1,82 @@
-import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import React, { Component } from "react";
+import { Grid, Cell, List, Button, Textfield } from "react-mdl";
 
 class Contact extends Component {
-    render() {
-        return (
-            <div className="contact-body">
-                <Grid className="contact-grid">
-                    <Cell col={6}>
-                        <h3>Syoutaoru Imamura</h3>
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ITbO8HeQcxa5yhjeacxErtvsy3ibzYzp90k0ogLA_17c7Jw"
-                            alt="avatar"
-                            style={{ height: '250px' }} />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-                            I'm imamura age:24
-                           <p></p> I'm looking forward to hearing from you.<p></p>
-                        </p>
-                    </Cell>
-                    <Cell col={6}>
-                        <h2>Contact Me</h2>
-                        <hr />
+  Alert() {
+    alert(
+      "今はバックエンド側の処理を作成中のため横のメールアドレスかSNSのDMからメッセージをお願いいたします"
+    );
+  }
+  render() {
+    return (
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={6}>
+            <h3 style={{ fontWeight: "bold" }}>Syoutaoru Imamura</h3>
+            <hr />
+            <img
+              src={`${process.env.PUBLIC_URL}/img.jpg`}
+              alt="avatar"
+              className="avater-img-mini"
+            />
+            <p>▍自己紹介 福岡出身 １９９４年生まれ </p>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              ・職歴
+              新卒で営業をしており、商品を売る上で商品の制作の過程を知るのに興味をもち、そのまま開発にハマって下記の経歴に至ります。
+              ・実務経験 インターンから含めると約１年と半年です
+              ・趣味バイクと来来亭と個人開発が好き
+            </p>
 
-                        <div className="contact-list">
-                            <List>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              ▍メールアドレス
+            </p>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              syoutarouimamrua@gmail.com
+            </p>
+          </Cell>
+          <Cell col={6}>
+            <h3 style={{ fontWeight: "bold" }}>Contact Me</h3>
+            <hr />
+            <p style={{ padding: "1em" }}>準備中</p>
+            <div className="contact-list">
+              <List>
+                {/* <ListItem>
+                  <ListItemContent className="phone">
+                    080-8364-5815
+                  </ListItemContent>
+                </ListItem>
 
-                                <ListItem>
-                                    <ListItemContent className='phone'>
-                                        <i className="fa fa-phone-square" aria-hidden="ture" style={{ fontSize: 50 }} />
-                                        (080-8364-5815)
-                                    </ListItemContent>
-                                </ListItem>
+                <ListItem>
+                  <ListItemContent className="mail">
+                    syoutarouimamrua@gmail.com{" "}
+                  </ListItemContent>
+                </ListItem> */}
+                <Textfield onChange={() => {}} label="名前..." floatingLabel />
 
-                                <ListItem>
-                                    <ListItemContent className='mail' >
-                                        <i className="fas fa-envelope-square" aria-hidden="ture" style={{ fontSize: 50 }} />
-                                        imasyou718@icloud.com
-                                    </ListItemContent>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemContent className='skype' style={{ fontFamily: 'Anton' }}>
-                                        <i className="fab fa-skype" aria-hidden="ture" />
-                                        live:cad6fb31ff8b2754
-                                    </ListItemContent>
-                                </ListItem>
-
-                            </List>
-                        </div>
-                    </Cell>
-                </Grid>
-            </div >
-        )
-    }
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  pattern="-?[0-9]*(\.[0-9]+)?"
+                  error="Input is not a number!"
+                  label="メールアドレス..."
+                  floatingLabel
+                />
+                <Textfield onChange={() => {}} label="内容..." rows={3} />
+                <Button
+                  onClick={this.Alert}
+                  ripple
+                  raised
+                  colored
+                  style={{ margin: 60 }}
+                >
+                  Button
+                </Button>
+              </List>
+            </div>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
 }
 export default Contact;
