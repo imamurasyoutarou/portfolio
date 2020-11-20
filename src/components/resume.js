@@ -52,7 +52,7 @@ class Resume extends Component {
               </a>
             </div>
             <h3 style={{ paddingTop: "1em" }}>Syoutaoru Imamura</h3>
-            <h4 style={{ color: "grey" }}>Front-end engineer</h4>
+            <h4 style={{ color: "grey" }}>Front-end / UX engineer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
 
             <h4>Skills</h4>
@@ -126,6 +126,24 @@ GoogleAnalytics Google タグマネージャー Google Optimize"
 今までのデザイン会社で働いてきたことを活かしてデザイナーの考えること、デザインの意図を深く理解しながらデザインとコードの運用面のこと考えながら開発を行いました。
 またSEO、コンバージョン改善pjtにも参加
 A/Bテスト、アプリバナーの配置改善などユーザーの行動データを元に施策を考え、様々な対策を行いました。"
+            />
+            <Experience
+              startYear={2020.9}
+              endYear={"現在"}
+              jobName="フリーランス"
+              Skill="##使用技術
+HTML CSS JavaScript Nuxt/Vue Next/React ReactNaitve Figma  Firebase "
+              jobDescription="
+              青果市場 システム開発 9~11月
+              担当業務
+              LP改善 システムUI改善
+
+              コミュニティアプリ立ち上げ 10〜現在
+              担当業務
+              課題インタビュー
+              ソリューションインタビュー
+              ソリューション検討
+              プロトタイプ作成"
             />
           </Cell>
         </Grid>
