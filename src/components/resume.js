@@ -31,7 +31,7 @@ class Resume extends Component {
             </div>
             <h3 style={{ paddingTop: "1em" }}>Syoutaoru Imamura</h3>
             <h4 style={{ color: "grey" }}>Front-end / UX engineer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2" }} />
 
             <h4>Skills</h4>
             <p>
@@ -39,7 +39,7 @@ class Resume extends Component {
               / sketch / XD / Figma / Google analytics / Tag Manager / optimize
             </p>
             <p>
-              <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+              <hr style={{ borderTop: "3px solid #833fb2" }} />
               <h4>Strength</h4>
               <p style={{ fontWeight: "bold" }}>・デザインとエンジニアとして両方の視点を持っての開発</p>
               <p>
@@ -52,7 +52,30 @@ class Resume extends Component {
               <p style={{ fontWeight: "bold" }}>・スピード感を持ったリーン開発</p>
               動くものベースでの開発はとても得意としていますので早く検証をしたいプロトタイプ開発や検証などは得意です。マイカグや今自分が個人で開発中のバイクのアプリも課題インタビューを行った上でUIから実装までのプロトタイプを作って、改善を繰り替えることで身に着けることができました。
             </p>
+            <hr style={{ borderTop: "3px solid #833fb2" }} />
+            <h4>Personal work</h4>
+
+            <div style={{ fontWeight: "bold" }}>toulink</div>
+            <div>バイクに乗るライダーのためのApp</div>
+            <a>{"notion(準備中)"}</a>
+            <div style={{ marginTop: "16px", fontWeight: "bold" }}>マイカグ</div>
+            <div>オーダー家具職人のためのApp</div>
+
+            <a
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.firebaseapp.react_naitive.Mykagu&hl=ja"
+            >
+              Android
+            </a>
+            <a
+              style={{ marginLeft: "16px" }}
+              target="_blank"
+              href="https://apps.apple.com/us/app/%E3%83%9E%E3%82%A4%E3%82%AB%E3%82%B0/id1482771246"
+            >
+              ios
+            </a>
           </Cell>
+
           <Cell className="resume-right-col" col={8}>
             <h2>Experience</h2>
             <Experience
