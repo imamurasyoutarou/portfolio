@@ -82,7 +82,7 @@ class Resume extends Component {
               startYear={2020.12}
               endYear={"現在"}
               jobName="ファンタラクティブ株式会社"
-              Skill="HTML CSS Sass JavaScript Nuxt Vue tailwind"
+              Skill="HTML CSS Sass JavaScript Nuxt/Vue tailwind"
               jobDescription="
               storesで構築されているECサイトをnuxtで作り直すPJT
               デザイナーとUIの設計を密に行い、tailwindを使ってフロント側とデザイナー間のコミュニケーションコストを下げました。
@@ -106,7 +106,7 @@ class Resume extends Component {
               startYear={2020.1}
               endYear={2020.8}
               jobName="株式会社ヤマップ"
-              Skill="HTML CSS Sass JavaScript Nuxt/Vue GoogleAnalytics タグマネージャー Optimize"
+              Skill="HTML CSS Sass JavaScript Nuxt/Vue  Google analytics Tag Manager optimize"
               jobDescription="デザイナーと密にコミュニケーションをとりながら主にデザイン改善に着手今までのデザイン会社で働いてきたことを活かしてデザイナーの考えること、
               デザインの意図を深く理解しながらデザインとコードの運用面のこと考えながら開発を行いました。またSEO、
               コンバージョン改善pjtにも参加A/Bテスト、アプリバナーの配置改善などユーザーの行動データを元に施策を考え、様々な対策を行いました。"
@@ -115,7 +115,7 @@ class Resume extends Component {
               startYear={2019.12}
               endYear={2020.1}
               jobName="株式会社アジケ 業務委託"
-              Skill="Next.js TypeScript  Firebase"
+              Skill="HTML CSS JavaScript Next/React TypeScript  Firebase"
               jobDescription="新規事業の立ち上げをお手伝いして、部分的な機能開発に努めました。担当した機能一つ一つユーザーとって何が最適なUXかを考えて実装。"
             />
 
