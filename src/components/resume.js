@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Education from "./education";
 import Experience from "./experience";
-import Skills from "./skills";
 
 class Resume extends Component {
   render() {
@@ -11,43 +9,23 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img
-                src={`${process.env.PUBLIC_URL}/img.jpg`}
-                alt="avatar"
-                className="avater-img"
-              />
+              <img src={`${process.env.PUBLIC_URL}/img.jpg`} alt="avatar" className="avater-img" />
             </div>
             <div className="social-links">
               {/* GidHub */}
-              <a
-                href="https://github.com/imamurasyoutarou"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://github.com/imamurasyoutarou" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-github-square" aria-hidden="true"></i>
               </a>
               {/* Twitter */}
-              <a
-                href="https://twitter.com/imasyou718"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://twitter.com/imasyou718" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
               {/* facebook */}
-              <a
-                href="https://www.facebook.com/profile.php"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/profile.php" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
               {/* mail */}
-              <a
-                href="https://note.mu/imasyou718"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://note.mu/imasyou718" rel="noopener noreferrer" target="_blank">
                 <i className="far fa-sticky-note" aria-hidden="true"></i>
               </a>
             </div>
@@ -57,28 +35,21 @@ class Resume extends Component {
 
             <h4>Skills</h4>
             <p>
-              HTML / CSS / Sass / tailwind /JavaScript / TypeScript / Vue / Nuxt
-              / React / Next / ReactNative / Firebase / sketch / XD / Figma /
-              Google analytics / Tag Manager / optimize
+              HTML / CSS / Sass / tailwind /JavaScript / TypeScript / Vue / Nuxt / React / Next / ReactNative / Firebase
+              / sketch / XD / Figma / Google analytics / Tag Manager / optimize
             </p>
             <p>
               <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
               <h4>Strength</h4>
-              <p style={{ fontWeight: "bold" }}>
-                ・デザインとエンジニアとして両方の視点を持っての開発
-              </p>
+              <p style={{ fontWeight: "bold" }}>・デザインとエンジニアとして両方の視点を持っての開発</p>
               <p>
                 デザイン会社でフロントエンドとデザイナーとして働いたこと経験があり、デザインとエンジニアリングの双方を意識した開発を円滑に行うことができます。デザイナーとエンジニアの架け橋に慣れるような人材を目指してます。
               </p>
-              <p style={{ fontWeight: "bold" }}>
-                ・ユーザー体験を深く意識し開発
-              </p>
+              <p style={{ fontWeight: "bold" }}>・ユーザー体験を深く意識し開発</p>
               <p>
                 UI/UXデザイナーとUXデザイン会社、ヤマップでのユーザーデータを元にした開発をした経験を元にユーザーが何を求めてるかを考えた上でベストな選択ができると思ってます。これは個人開発で企画から実装まで全て自分で行いリリースまで行った経験も活きていると思います。
               </p>
-              <p style={{ fontWeight: "bold" }}>
-                ・スピード感を持ったリーン開発
-              </p>
+              <p style={{ fontWeight: "bold" }}>・スピード感を持ったリーン開発</p>
               動くものベースでの開発はとても得意としていますので早く検証をしたいプロトタイプ開発や検証などは得意です。マイカグや今自分が個人で開発中のバイクのアプリも課題インタビューを行った上でUIから実装までのプロトタイプを作って、改善を繰り替えることで身に着けることができました。
             </p>
           </Cell>
