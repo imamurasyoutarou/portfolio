@@ -57,17 +57,21 @@ class Resume extends Component {
 
             <div style={{ fontWeight: "bold" }}>toulink</div>
             <div>バイクに乗るライダーのためのApp</div>
-            <a>{"notion(準備中)"}</a>
+            <a href="http://localhost:3000" rel="noreferrer">
+              {"notion(準備中)"}
+            </a>
             <div style={{ marginTop: "16px", fontWeight: "bold" }}>マイカグ</div>
             <div>オーダー家具職人のためのApp</div>
 
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://play.google.com/store/apps/details?id=com.firebaseapp.react_naitive.Mykagu&hl=ja"
             >
               Android
             </a>
             <a
+              rel="noreferrer"
               style={{ marginLeft: "16px" }}
               target="_blank"
               href="https://apps.apple.com/us/app/%E3%83%9E%E3%82%A4%E3%82%AB%E3%82%B0/id1482771246"
