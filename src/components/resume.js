@@ -56,40 +56,21 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Experience</h2>
             <Experience
-              startYear={2019.4}
-              endYear={2019.9}
-              jobName="SEREAL株式会社"
-              Skill="##使用技術
-HTML CSS JavaScript sketch"
-              jobDescription="上司の手伝い・仮想案件をしながらデザインツールの使用方法、UIの考え方を身に着けることができました。スタートアップ をメインに低単価でUI改善を行う新規事業の営業資料を作成し、自分で営業を行いその営業資料のデザインに対してのターゲットユーザーの反応をみた上でブラッシュアップを繰り返し、新規事業の立ち上げにコミットしました"
-            />
-            <Experience
-              startYear={2019.12}
-              endYear={2020.1}
-              jobName="株式会社アジケ 業務委託"
-              Skill="##使用技術
-                                Next.js TypeScript  Firebase"
-              jobDescription="新規事業の立ち上げをお手伝いして、部分的な機能開発に努めました。
-担当した機能一つ一つユーザーとって何が最適なUXかを考えて実装。"
-            />
-            <Experience
-              startYear={2020.1}
-              endYear={2020.8}
-              jobName="株式会社ヤマップ"
-              Skill="##使用技術
-HTML CSS Sass JavaScript Nuxt Vue
-GoogleAnalytics Google タグマネージャー Google Optimize"
-              jobDescription="デザイナーと密にコミュニケーションをとりながら主にデザイン改善に着手
-今までのデザイン会社で働いてきたことを活かしてデザイナーの考えること、デザインの意図を深く理解しながらデザインとコードの運用面のこと考えながら開発を行いました。
-またSEO、コンバージョン改善pjtにも参加
-A/Bテスト、アプリバナーの配置改善などユーザーの行動データを元に施策を考え、様々な対策を行いました。"
+              startYear={2020.12}
+              endYear={"現在"}
+              jobName="ファンタラクティブ株式会社"
+              Skill="HTML CSS Sass JavaScript Nuxt Vue tailwind"
+              jobDescription="
+              storesで構築されているECサイトをnuxtで作り直すPJT
+              デザイナーとUIの設計を密に行い、tailwindを使ってフロント側とデザイナー間のコミュニケーションコストを下げました。
+              コンポーネントの設計もAtomicDesignで設計して実装。
+              0から作ってリリースまで全て行いました"
             />
             <Experience
               startYear={2020.9}
               endYear={2020.12}
               jobName="コミュニティアプリ立ち上げ"
-              Skill="##使用技術
-HTML CSS JavaScript  Next/React ReactNaitve Figma  Firebase "
+              Skill="HTML CSS JavaScript  Next/React ReactNaitve Figma Firebase"
               jobDescription="
               担当業務
               課題インタビュー、
@@ -99,16 +80,28 @@ HTML CSS JavaScript  Next/React ReactNaitve Figma  Firebase "
               上記のタスクをPMとコミュニケーションを行いながら幅広く担当。プロトタイプに関しては主要機能のみユーザーに仮説検証として使って試してもらうためのミニマルなものを作成"
             />
             <Experience
-              startYear={2020.12}
-              endYear={"現在"}
-              jobName="ファンタラクティブ株式会社"
-              Skill="##使用技術
-              HTML CSS Sass JavaScript Nuxt Vue tailwind "
-              jobDescription="
-              storesで構築されているECサイトをnuxtで作り直すPJT
-              デザイナーとUIの設計を密に行い、tailwindを使ってフロント側とデザイナー間のコミュニケーションコストを下げました。
-              コンポーネントの設計もAtomicDesignで設計して実装。
-              0から作ってリリースまで全て行いました"
+              startYear={2020.1}
+              endYear={2020.8}
+              jobName="株式会社ヤマップ"
+              Skill="HTML CSS Sass JavaScript Nuxt/Vue GoogleAnalytics タグマネージャー Optimize"
+              jobDescription="デザイナーと密にコミュニケーションをとりながら主にデザイン改善に着手今までのデザイン会社で働いてきたことを活かしてデザイナーの考えること、
+              デザインの意図を深く理解しながらデザインとコードの運用面のこと考えながら開発を行いました。またSEO、
+              コンバージョン改善pjtにも参加A/Bテスト、アプリバナーの配置改善などユーザーの行動データを元に施策を考え、様々な対策を行いました。"
+            />
+            <Experience
+              startYear={2019.12}
+              endYear={2020.1}
+              jobName="株式会社アジケ 業務委託"
+              Skill="Next.js TypeScript  Firebase"
+              jobDescription="新規事業の立ち上げをお手伝いして、部分的な機能開発に努めました。担当した機能一つ一つユーザーとって何が最適なUXかを考えて実装。"
+            />
+
+            <Experience
+              startYear={2019.4}
+              endYear={2019.9}
+              jobName="SEREAL株式会社"
+              Skill="HTML CSS JavaScript sketch"
+              jobDescription="上司の手伝い・仮想案件をしながらデザインツールの使用方法、UIの考え方を身に着けることができました。スタートアップ をメインに低単価でUI改善を行う新規事業の営業資料を作成し、自分で営業を行いその営業資料のデザインに対してのターゲットユーザーの反応をみた上でブラッシュアップを繰り返し、新規事業の立ち上げにコミットしました"
             />
           </Cell>
         </Grid>
